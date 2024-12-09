@@ -1,0 +1,38 @@
+@media screen and (max-width:768px) {
+    #background{
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    #sedans{
+        width: 15rem;
+        border-radius: 1rem 1rem 0 0;
+        gap: 1.5rem;
+    }
+    #suv{
+        width: 15rem;
+        gap: 1.5rem;
+    }
+    #luxury{
+        width: 15rem;
+        border-radius: 0 0 1rem 1rem; 
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    #background{
+        margin: 3% 0 0 0;
+        
+    }
+    #sedans{
+        width: 12rem;
+    height: 27rem;
+gap:1.2rem
+}
+    #suv{width: 12rem;
+        height: 27rem;
+    gap:1.2rem}
+    #luxury{width: 12rem;
+        height: 27rem;
+    gap:1.2rem}
+}
